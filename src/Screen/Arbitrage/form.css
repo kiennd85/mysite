@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  font-size: 0.9rem;
+}
+.add_row td {
+  border: 1px solid rgba(175, 167, 167, 0.652);
+  padding: 2px 5px 2px 5px;
+}
+.js_time {
+  width: 65px;
+}
+
+.js_token {
+  width: 60px;
+}
+.js_source,
+.js_dest {
+  width: 65px;
+}
+.js_chain {
+  width: 45px;
+}
+.js_base {
+  width: 55px;
+}
+
+.js_usd1 {
+  width: 45px;
+}
+
+.js_price {
+  width: 75px;
+  text-align: right;
+}
+
+.js_qty {
+  width: 60px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.js_usd2 {
+  width: 60px;
+}
+.js_usd1,
+.js_usd2 {
+  text-align: right;
+}
+
+.js_gain {
+  width: 70px;
+  text-align: right;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.js_price {
+  /* font-weight: bold; */
+}
+
+.add_row {
+  margin-left: 10px;
+  /* border: 1px solid; */
+}
+
+.row_warning {
+  background-color: rgba(237, 237, 120, 0.814);
+}
+
+/* background-color: lightskyblue; */
+
+.row_primary {
+  background-color: lightskyblue;
+}
+
+.row_normal {
+  color: red;
+}
+
+.row_speccial {
+  color: red;
+}
